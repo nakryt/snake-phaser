@@ -1,15 +1,14 @@
 {
-  "name": "react-express-phaser",
+  "name": "snake-phaser",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node index.js",
     "client": "cd client && npm start"
   },
-  "author": "",
+  "author": "Volodymyr Pestov <pestov.v@yahoo.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
